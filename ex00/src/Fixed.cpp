@@ -1,5 +1,7 @@
 #include "../inc/Fixed.hpp"
 
+// Orthodox Canonical Class Form //
+
 Fixed::Fixed(void)
 {
 	std::cout << "Default constructor called" << std::endl;
@@ -23,6 +25,8 @@ Fixed::~Fixed(void)
 {
     std::cout << "Destructor called" << std::endl;
 }
+
+// Getters and Setters //
 
 int	Fixed::getRawBits(void) const
 {
